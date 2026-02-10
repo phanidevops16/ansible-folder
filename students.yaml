@@ -1,0 +1,28 @@
+
+- name: "Phani D"
+  dob: "1984-06-16"
+  MobileNumber: 123456789
+  addresses:
+   - FlatNumber: 201
+     Street: "Indira Nayak Nagar"
+     City: Vijayawada
+     Type: Current
+
+   - FlatNumber: G1
+     Street: "Raghu Ram"
+     City: Vijayawada
+     Type: Permanent
+
+- name: "Kesava P"
+  dob: "1984-06-16"
+  MobileNumber: 123456789
+  addresses:
+   - FlatNumber: 201
+     Street: "Indira Nayak Nagar"
+     City: Vijayawada
+     Type: Current
+
+   - FlatNumber: G1
+     Street: "Raghu Ram"
+     City: Vijayawada
+     Type: Permanent
