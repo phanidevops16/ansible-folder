@@ -1,0 +1,26 @@
+
+#!/bin/bash
+- name: demo on data types
+  host: local
+  connection: local
+  vars:
+    PROGRAM: "DevOpsSec with AWS" #String
+    DURATION: 140  #Integer
+    IS_LIVE: true # boolean
+    DETAILS:
+      MONTHS: 4
+      TRAINEE: "Phani"
+    TOPICS:
+    - Linux
+    - Shell
+    - ansible
+  tasks:
+  - name: print variables
+    ansible.builtin.debug:
+      msg: |
+        Program: {{ PROGRAM }}
+        Duration: {{ DURATION }}
+        Is_Live?: {{ IS_LIVE }}
+        Details: {{ DETAILS }}
+        Topics: {{ TOPICS }}
+        
