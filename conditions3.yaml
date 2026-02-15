@@ -1,2 +1,8 @@
 #!/bin/bash
 
+- name: gathering facts
+  hosts: web
+  tasks:
+  - name: print facts
+    ansible.builtin.debug:
+      msg: "{{ ansible_facts }}"
