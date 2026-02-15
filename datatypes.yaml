@@ -1,7 +1,8 @@
 
 #!/bin/bash
 - name: demo on data types
-  hosts: web
+  hosts: local
+  connection: local
   vars:
     PROGRAM: "DevOpsSec with AWS" #String
     DURATION: 140  #Integer
