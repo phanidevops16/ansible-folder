@@ -1,7 +1,7 @@
 #!/bin/bash
 - name: check number less than 10 or not
   hosts: local
-  connections: local
+  connection: local
   vars:
     NUMBER_OF_SESSIONS: 7
   tasks:
@@ -9,4 +9,3 @@
     ansible.builtin.debug:
       msg: "yes, more than 5 sessions"
     when: NUMBER_OF_SESSIONS > 5
-    
